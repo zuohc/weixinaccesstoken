@@ -1,0 +1,15 @@
+weixinaccesstoken:
+  wx-access-token-url: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=%s&secret=%s
+  wx_ticket-url: https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=%s&type=jsapi
+  wx-access-token-key: WxAccessToken_MyTest
+  wx_ticket-key: WxAccessTicket_MyTest
+  appid: wx59ff82faf2dd3f6e
+  appsecret: ea4f99a40cac385ce1074eb62e970ca2
+  sleep-time: 5000
+
+
+spring:
+  redis:
+    host: 192.168.1.108
+    port: 6379
+    password: xiaoxingli.redis
